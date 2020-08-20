@@ -25,7 +25,7 @@ to help you create fantastic documentation for your project.
 
 * **Getting started**:
   :doc:`What is a static site? </intro/what-is-a-static-site>` |
-  :doc:`Feature Overview </intro/features>` |
+  :doc:`How it works </intro/how-it-works>` |
   :doc:`Is it right for me? </intro/is-it-right-for-me>` |
   :doc:`Where should I host? </intro/where-should-i-host>`
 
@@ -36,9 +36,55 @@ to help you create fantastic documentation for your project.
    :caption: First steps
 
    /intro/what-is-a-static-site
-   /intro/features
-
+   /intro/how-it-works
    /intro/is-it-right-for-me
    /intro/where-should-i-host
 
+Getting started with Static HTML Output
+---------------------------------------
+
+Prepare to go static for the first time and maintain an ideal workflow.
+
+* **Decisions to make**:
+  :doc:`Common workflows </decisions/workflows>` |
+  :doc:`Local dev sites </decisions/local-dev-sites>` |
+  :doc:`Remote dev sites </decisions/remote-dev-sites>` |
+  :doc:`Static site hosts </decisions/static-site-hosts>`
+
+* **Making a static-friendly WordPress Site**:
+  :doc:`Form processing </static-site-friendly/form-processing>` |
+  :doc:`Search </static-site-friendly/search>` |
+  :doc:`Comments </static-site-friendly/comments>` |
+  :doc:`eCommerce </static-site-friendly/e-commerce>`
+
+* **Configuring the plugin**:
+  :doc:`Deployment URL </configuration/deployment-url>`
+  :doc:`Crawl options </configuration/crawl-options>`
+  :doc:`Modifying output </configuration/modifying-output>`
+
+* **Troubleshooting**:
+  :doc:`Missing assets </troubleshooting/missing-assets>`
+  :doc:`Failing to complete process </troubleshooting/failing-to-complete>`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Getting started
+
+   /decisions/workflows
+   /decisions/local-dev-sites
+   /decisions/remote-dev-sites
+   /decisions/static-site-hosts
+ 
+   /static-site-friendly/form-processing
+   /static-site-friendly/search
+   /static-site-friendly/comments
+   /static-site-friendly/e-commerce
+ 
+   /configuration/deployment-url
+   /configuration/crawl-options
+   /configuration/modifying-output
+ 
+   /troubleshooting/missing-assets
+   /troubleshooting/failing-to-complete
 
