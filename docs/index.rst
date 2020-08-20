@@ -59,7 +59,6 @@ Prepare to go static for the first time and maintain an ideal workflow.
 * **Configuring the plugin**:
   :doc:`Deployment URL </configuration/deployment-url>`
   :doc:`Crawl options </configuration/crawl-options>`
-  :doc:`Modifying output </configuration/modifying-output>`
 
 * **Troubleshooting**:
   :doc:`Missing assets </troubleshooting/missing-assets>`
@@ -79,8 +78,8 @@ Prepare to go static for the first time and maintain an ideal workflow.
    /static-site-friendly/comments
    /static-site-friendly/e-commerce
 
-   /configuration/modifying-output
- 
+   /deployment-options/index
+
    /troubleshooting/index
 
 
@@ -90,9 +89,10 @@ Advanced usage
 Create more technical workflows or extend plugin functionality.
 
 * **Advanced Usage**:
-  :doc:`Common workflows </advanced/wp-cli>` |
-  :doc:`Local dev sites </advanced/extending>` |
-  :doc:`Local dev sites </advanced/automating>`
+  :doc:`WP-CLI </advanced/wp-cli>` |
+  :doc:`Extending plugin behaviour </advanced/extending>` |
+  :doc:`Automating your workflow </advanced/automating>`
+  :doc:`Modifying output </advanced/modifying-output>`
 
 .. toctree::
    :maxdepth: 2
@@ -102,6 +102,8 @@ Create more technical workflows or extend plugin functionality.
    /advanced/wp-cli
    /advanced/extending
    /advanced/automating
+   /advanced/modifying-output
+ 
 
 Community
 ---------
