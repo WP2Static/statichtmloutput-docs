@@ -1,2 +1,2 @@
-e-commerce for static sites
-===========================
+e-Commerce
+==========

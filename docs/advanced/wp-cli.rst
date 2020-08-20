@@ -1,2 +1,2 @@
-Search
+WP-CLI
 ======

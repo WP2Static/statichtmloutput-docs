@@ -1,2 +1,2 @@
-Comments for static sites
-=========================
+Comments
+========

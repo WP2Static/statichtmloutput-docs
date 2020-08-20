@@ -26,8 +26,7 @@ to help you create fantastic documentation for your project.
 * **Getting started**:
   :doc:`What is a static site? </intro/what-is-a-static-site>` |
   :doc:`How it works </intro/how-it-works>` |
-  :doc:`Is it right for me? </intro/is-it-right-for-me>` |
-  :doc:`Where should I host? </intro/where-should-i-host>`
+  :doc:`Decisions to make </decisions/index>`
 
 
 .. toctree::
@@ -37,8 +36,8 @@ to help you create fantastic documentation for your project.
 
    /intro/what-is-a-static-site
    /intro/how-it-works
-   /intro/is-it-right-for-me
-   /intro/where-should-i-host
+   /decisions/index
+
 
 Getting started with Static HTML Output
 ---------------------------------------
@@ -71,20 +70,56 @@ Prepare to go static for the first time and maintain an ideal workflow.
    :hidden:
    :caption: Getting started
 
-   /decisions/workflows
-   /decisions/local-dev-sites
-   /decisions/remote-dev-sites
-   /decisions/static-site-hosts
  
+   /configuration/deployment-url
+   /configuration/crawl-options
+
    /static-site-friendly/form-processing
    /static-site-friendly/search
    /static-site-friendly/comments
    /static-site-friendly/e-commerce
- 
-   /configuration/deployment-url
-   /configuration/crawl-options
+
    /configuration/modifying-output
  
-   /troubleshooting/missing-assets
-   /troubleshooting/failing-to-complete
+   /troubleshooting/index
+
+
+Advanced usage
+--------------
+
+Create more technical workflows or extend plugin functionality.
+
+* **Advanced Usage**:
+  :doc:`Common workflows </advanced/wp-cli>` |
+  :doc:`Local dev sites </advanced/extending>` |
+  :doc:`Local dev sites </advanced/automating>`
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Advanced
+ 
+   /advanced/wp-cli
+   /advanced/extending
+   /advanced/automating
+
+Community
+---------
+
+Get involved with the users and developers of Static HTML Output.
+
+* **Community resources**:
+  `Support Forum <https://staticword.press/c/wordpress-static-site-generators/static-html-output>`_ |
+  `GitHub <https://github.com/WP2Static/static-html-output>`_ |
+  `Homepage <https://statichtmloutput.com>`_
+
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Community Resources
+
+   Forum <https://staticword.press/c/wordpress-static-site-generators/static-html-output>
+   GitHub <https://github.com/WP2Static/static-html-output>
+   Homepage <https://statichtmloutput.com>
+ 
 
