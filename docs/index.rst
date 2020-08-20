@@ -18,10 +18,9 @@ Open Source with no restrictions
 First steps
 -----------
 
-Are you new to static sites
-or looking for the differences between 
-Learn about documentation authoring tools such as Sphinx and MkDocs
-to help you create fantastic documentation for your project.
+Are you new to static sites or looking for the differences between Static HTML Output 
+and other static site generators?
+
 
 * **Getting started**:
   :doc:`What is a static site? </intro/what-is-a-static-site>` |
