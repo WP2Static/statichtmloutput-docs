@@ -4,6 +4,8 @@ How it works
 
 .. uml::
 
+  skinparam ranksep 20
+
   partition "Dev server" {
     "Install Static HTML Output plugin" --> Set deployment method
     --> Set Deployment URL
