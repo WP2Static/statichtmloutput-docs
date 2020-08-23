@@ -10,6 +10,8 @@ and staff. A point-and-click web designer may be comfortable with Elementor, but
 A sysadmin can script a full static site deployment using Static HTML Output without ever 
 having to enter the WordPress admin dashboard.
 
+Learn what makes sense for your ideal workflow.
+
 Common workflows
 ----------------
 
