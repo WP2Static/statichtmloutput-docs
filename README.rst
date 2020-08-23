@@ -41,6 +41,8 @@ can get `latest version here <http://sourceforge.net/projects/plantuml/files/pla
   EOT
   % chmod +x /usr/local/bin/plantuml
 
+Depending on the type of diagrams being used, you'll probably also need `graphviz` installed in your host operating system.
+
 **Forcing rebuild of docs locally**
 
 - `cd docs`
