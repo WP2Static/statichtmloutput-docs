@@ -12,40 +12,49 @@ having to enter the WordPress admin dashboard.
 
 Learn what makes sense for your ideal workflow.
 
+Architectural choices
+---------------------
+
+We illustrate some common configurations with their strengths/weaknesses. 
+:doc:`Read more </decisions/architectural>`
+
+.. toctree::
+   :glob:
+   :hidden:
+
+   architectural*
+
 Common workflows
 ----------------
 
 We illustrate some common configurations with their strengths/weaknesses. 
-`Read more </decisions/workflows>`_
+:doc:`Read more </decisions/workflows>`
+
+.. toctree::
+   :glob:
+   :hidden:
+
+   workflows*
 
 Local dev sites
 ---------------
 
 Ususually more secure and powerful than a remote development server, with many options 
 for all operating systems, including one designed specifically for WordPress to static 
-site generation. `Read more </decisions/local-dev-sites>`_
+site generation. :doc:`Read more </decisions/local-dev-sites>`
 
 Remote dev sites
 ----------------
 
 When you need team collaboration on your site or local development isn't an option, 
 there are still good ways to secure your remote development server and get more 
-cost efficient performance. `Read more </decisions/remote-dev-sites>`_
+cost efficient performance. :doc:`Read more </decisions/remote-dev-sites>`
 
 Static site hosts
 -----------------
 
 Maximize speed with global CDN-backed hosting or avoid any hosting costs by using 
-one of the many free static site hosting offerings. `Read more </decisions/static-site-hosts>`_
+one of the many free static site hosting offerings. :doc:`Read more </decisions/static-site-hosts>`
 
 
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Decisions to make
-
-   workflows
-   local-dev-sites
-   remote-dev-sites
-   static-site-hosts
  
