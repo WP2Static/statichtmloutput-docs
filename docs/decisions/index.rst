@@ -15,7 +15,8 @@ Learn what makes sense for your ideal workflow.
 Architectural choices
 ---------------------
 
-We illustrate some common configurations with their strengths/weaknesses. 
+Host locally or on a VPS? Reduce risks with a staging server? We illustrate some 
+common configurations with their strengths/weaknesses. 
 :doc:`Read more </decisions/architectural>`
 
 .. toctree::
@@ -27,7 +28,7 @@ We illustrate some common configurations with their strengths/weaknesses.
 Common workflows
 ----------------
 
-We illustrate some common configurations with their strengths/weaknesses. 
+Choose to control exactly when and how you deploy or automate the whole workflow! 
 :doc:`Read more </decisions/workflows>`
 
 .. toctree::

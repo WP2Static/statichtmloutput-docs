@@ -11,6 +11,14 @@ That sounds great, but still… what are they? How do I know if I already have o
 
 Are you running WordPress? Then, you don’t have a static website. Remember all that jazz about static sites being “super fast under heavy load, secure by design and often free to host”? Sorry, WordPress can’t claim any of those bragging rights.
 
+**Prefer video?**
+
+Here's a talk one of our developers gave at WordCamp Brisbane 2018:
+
+..  youtube:: HPc4JjBvkrU
+
+**Keep reading**
+
 WordPress, as an example of a “dynamic” site, uses a database in the “backend” to store its content. Where a static site usually stores the content directly within the webpage itself, WordPress must fetch this content from the database and insert it into the webpage that your browser “requests” from the “server”, it does this using a “server-side” language called PHP. In fact, WordPress is an application written in this PHP language, that sits on your “web server”, listening for incoming requests for webpages via your browser, then scurrying off to grab an image from here, a page title from there, a list of top posts from another far off place, then rushing back to try and assemble them and present them to you. Sounds exhausting!
 
 With a static webpage, it’s still being served to you by a “web server”, but doesn’t require an application like WordPress needing to be on duty to greet you at the door. Not needing to ask you what you want and then go searching for it in a dusty back room while you wait, a static site is like an adept mind-reader, able to meet you at the door with a perfectly wrapped parcel of exactly what you asked for.

@@ -34,7 +34,9 @@ extensions = [
   'recommonmark',
   'sphinx_rtd_theme',
   'sphinxcontrib.plantuml',
-  'sphinxcontrib.needs'
+  'sphinxcontrib.needs',
+  'sphinxembeddedvideos.peertube',
+  'sphinxembeddedvideos.youtube',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
