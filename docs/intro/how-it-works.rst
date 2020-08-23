@@ -1,2 +1,21 @@
 How it works
 ============
+
+
+.. uml::
+
+  :foo1;
+  -> You can put text on arrows;
+  if (test) then
+    -[#blue]->
+    :foo2;
+    -[#green,dashed]-> The text can
+    also be on several lines
+    and **very** long...;
+    :foo3;
+  else
+    -[#black,dotted]->
+    :foo4;
+  endif
+  -[#gray,bold]->
+  :foo5;

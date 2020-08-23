@@ -23,6 +23,27 @@ To build locally, a `requirements.txt` is provided so you can reproduce the same
 - `cd docs`
 - `make html` (outputs site to `_build/html`
 
+PlantUML is used for generating rich image diagrams, while remaining editable 
+within this repository.
+
+You'll need to install the `.jar` file into the docs dir as `plantuml.jar` and 
+can get `latest version here <http://sourceforge.net/projects/plantuml/files/plantuml.jar/download>`_. This is not tracked under git, as there is a version available on ReadTheDocs. `Learn more <https://sphinxcontrib-needs.readthedocs.io/en/latest/installation.html#install-plantuml>`_. A Java runtime will also be required to use PlantUML.
+
+`plantuml` should be available on your `PATH`. You can either set a fully resolvable path in this repo's `docs/conf.py` file or add a wrapper as below:
+
+.. code-block:: shell
+  % cat <<EOT > /usr/local/bin/plantuml
+  #!/bin/sh -e
+  java -jar /path/to/plantuml.jar "$@"
+  EOT
+  % chmod +x /usr/local/bin/plantuml
+
+**Forcing rebuild of docs locally**
+
+- `cd docs`
+- `make clean`
+- `make html`
+
 
 **Need help?**
 
