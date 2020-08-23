@@ -30,9 +30,10 @@ Some popular products for setting up a WordPress instance locally (on your own c
 -  `XAMPP <https://www.apachefriends.org/index.html>`__
    (Linux/macOS/Win)
 -  `MAMP <https://www.mamp.info>`__ (macOS/Win)
--  `Local by Flywheel <https://local.getflywheel.com/>`__ (macOS/Win)
+-  `Local by Flywheel <https://local.getflywheel.com/>`__ (macOS/Win) (rather terrible)
 -  `DesktopServer <https://serverpress.com/get-desktopserver/>`__
-   (macOS/Win)
+-  `Laragon <https://github.com/leokhoa/laragon>`__
+   (Win)
 
 And these, more developer focused tools:
 

@@ -57,6 +57,12 @@ When you need team collaboration on your site or local development isn't an opti
 there are still good ways to secure your remote development server and get more 
 cost efficient performance. :doc:`Read more </decisions/remote-dev-sites>`
 
+.. toctree::
+   :glob:
+   :hidden:
+
+   remote-dev-sites*
+
 Static site hosts
 -----------------
 
