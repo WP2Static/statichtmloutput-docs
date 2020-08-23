@@ -44,6 +44,12 @@ Ususually more secure and powerful than a remote development server, with many o
 for all operating systems, including one designed specifically for WordPress to static 
 site generation. :doc:`Read more </decisions/local-dev-sites>`
 
+.. toctree::
+   :glob:
+   :hidden:
+
+   local-dev-sites*
+
 Remote dev sites
 ----------------
 
